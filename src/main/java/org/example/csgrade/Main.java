@@ -1,4 +1,14 @@
-import java.util.*;
+package org.example.csgrade;
+
+import org.example.csgrade.domain.AttendancePolicy;
+import org.example.csgrade.domain.Evaluation;
+import org.example.csgrade.domain.ExamResult;
+import org.example.csgrade.domain.ExtraPointsPolicy;
+import org.example.csgrade.domain.GradeCalculator;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
