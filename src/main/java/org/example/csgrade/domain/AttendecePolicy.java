@@ -1,4 +1,6 @@
-package org.example.csgrade.domain;
+public class AttendancePolicy {
 
-public class AttendecePolicy {
+    public boolean hasMinimumAttendance(boolean hasReachedMinimumClasses) {
+        return hasReachedMinimumClasses;
+    }
 }
